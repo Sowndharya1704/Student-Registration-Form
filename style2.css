@@ -1,0 +1,35 @@
+input:focus{
+    background-color: brown;
+}
+.l{
+    text-align: center;
+}
+button:hover{
+                 color: brown;
+}
+button{
+    border: 3px solid black;
+}
+#Dep{
+    width: 13.5%;
+}
+select:focus{
+    background-color: brown;
+}
+@media (min-width:375px) and (max-width:480px)
+{
+    body{
+        color: orangered;
+    }
+}
+@media (min-width:480px) and (max-width:768px)
+{
+    body{
+        color: darkred;
+    }
+}
+@media (min-width:768px) and (max-width:1024px)
+{
+    body{
+        color:red}
+}
